@@ -1,0 +1,118 @@
+body{
+background-color: #ecffe4 ;
+color: #184170;
+text-align: center;
+line-height: 16px;
+
+font-family: "Lora", serif;
+font-size:18px;
+font-style: italic; 
+}
+#f9fff2
+h1,h2,h3{
+  font-family: "DM Serif Display", serif;
+  font-weight: 700;
+  font width: bold;
+  font-style: normal;
+}
+
+
+h2{font-size: 23px;
+}  
+
+a{text-decoration: none;
+color: orange;
+font-weight: bold;
+font-style: normal;
+}
+
+a:hover{
+color:purple;
+text-decoration: underline;
+}
+
+/*custom design*/
+
+
+.fa-brands.fa-square-instagram {
+  font-size: 35px;
+}
+.fa-brands.fa-square-facebook {
+  font-size: 35px;
+}
+.fa-brands.fa-linkedin {
+  font-size: 35px;
+}
+
+.fa-solid.fa-share-nodes {
+  font-size: 20px;
+}
+
+.fa-solid.fa-desktop {
+  font-size: 20px;
+}
+
+.fa-solid.fa-dumbbell {
+font-size: 20px;
+}
+
+.a-solid.fa-earth-europe {
+font-size: 20px;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+.container {
+width: 1200px;
+margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+background: #f9fff2;
+padding:20px 50px;
+border-radius: 20px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+margin:1px 150px;
+}
+
+.btn-blue {
+background-color: orange;
+color: white;
+padding:2px 2px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color: purple;
+color: white;
+}
+
+.list-inline {
+  list-style: none; 
+  padding-left: 0px; 
+}
+.list-inline li {
+  display: inline; 
+  padding: 1px; 
+}
